@@ -1,16 +1,214 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+  <div class="container my-4">
+    <h2 class="text-center mb-4">Cards Gallery</h2>
+
+    <!-- ✅ Responsive Card Gallery -->
+    <div class="row g-4">
+      <!-- Repeat for each image -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg"
+               class="card-img-top"
+               alt="Image 1"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="0">
+          <div class="card-body text-center">
+            <h6 class="card-title">Beautiful Landscape</h6>
+            <p class="card-text">Experience the beauty of nature with this scenic view.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg"
+               class="card-img-top"
+               alt="Image 2"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="1">
+          <div class="card-body text-center">
+            <h6 class="card-title">Calm Waters</h6>
+            <p class="card-text">A peaceful escape to calm blue waters and clear skies.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg"
+               class="card-img-top"
+               alt="Image 3"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="2">
+          <div class="card-body text-center">
+            <h6 class="card-title">Sunset Glow</h6>
+            <p class="card-text">Capture the warmth of the evening sun over the horizon.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg"
+               class="card-img-top"
+               alt="Image 4"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="3">
+          <div class="card-body text-center">
+            <h6 class="card-title">Mountain Peaks</h6>
+            <p class="card-text">Adventure awaits at the snowy peaks of the mountains.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg"
+               class="card-img-top"
+               alt="Image 5"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="4">
+          <div class="card-body text-center">
+            <h6 class="card-title">City Lights</h6>
+            <p class="card-text">The dazzling lights of the city at night never sleep.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg"
+               class="card-img-top"
+               alt="Image 6"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="5">
+          <div class="card-body text-center">
+            <h6 class="card-title">Forest Trail</h6>
+            <p class="card-text">Walk through the quiet path of green forest trails.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg"
+               class="card-img-top"
+               alt="Image 7"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="6">
+          <div class="card-body text-center">
+            <h6 class="card-title">Desert Dunes</h6>
+            <p class="card-text">Golden sand dunes stretching endlessly into the horizon.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg"
+               class="card-img-top"
+               alt="Image 8"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="7">
+          <div class="card-body text-center">
+            <h6 class="card-title">Ocean View</h6>
+            <p class="card-text">Relax by the calm ocean waves under the open sky.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card rounded shadow-sm">
+          <img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg"
+               class="card-img-top"
+               alt="Image 9"
+               data-bs-toggle="modal"
+               data-bs-target="#lightboxModal"
+               data-bs-slide-to="8">
+          <div class="card-body text-center">
+            <h6 class="card-title">Snowy Cabin</h6>
+            <p class="card-text">A cozy cabin surrounded by a blanket of fresh snow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Lightbox Modal with Carousel -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <div id="carouselLightbox" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="d-block w-100 rounded" alt="1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="d-block w-100 rounded" alt="2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="d-block w-100 rounded" alt="3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="d-block w-100 rounded" alt="4">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="d-block w-100 rounded" alt="5">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="d-block w-100 rounded" alt="6">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="d-block w-100 rounded" alt="7">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg" class="d-block w-100 rounded" alt="8">
+            </div>
+            <div class="carousel-item">
+              <img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg" class="d-block w-100 rounded" alt="9">
+            </div>
+          </div>
+
+          <!-- Prev/Next Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselLightbox" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselLightbox" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Make image click open corresponding slide
+    const modal = document.getElementById('lightboxModal');
+    modal.addEventListener('show.bs.modal', function (event) {
+      const trigger = event.relatedTarget;
+      const index = trigger.getAttribute('data-bs-slide-to');
+      const carousel = bootstrap.Carousel.getOrCreateInstance(document.getElementById('carouselLightbox'));
+      carousel.to(index);
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
