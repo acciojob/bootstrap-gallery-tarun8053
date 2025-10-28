@@ -33,14 +33,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image1"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="0">
           <div class="card-body text-center">
-            <h6>Image 1</h6>
             <p>Description for image one.</p>
           </div>
         </div>
@@ -50,14 +49,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image2"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="1">
           <div class="card-body text-center">
-            <h6>Image 2</h6>
             <p>Description for image two.</p>
           </div>
         </div>
@@ -67,14 +65,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image3"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="2">
           <div class="card-body text-center">
-            <h6>Image 3</h6>
             <p>Description for image three.</p>
           </div>
         </div>
@@ -84,14 +81,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image4"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="3">
           <div class="card-body text-center">
-            <h6>Image 4</h6>
             <p>Description for image four.</p>
           </div>
         </div>
@@ -101,14 +97,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image5"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="4">
           <div class="card-body text-center">
-            <h6>Image 5</h6>
             <p>Description for image five.</p>
           </div>
         </div>
@@ -118,14 +113,13 @@
       <div class="col-12 col-sm-6 col-md-4 mb-4">
         <div class="card rounded">
           <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg"
-               class="card-img-top"
+               class="card-img-top lightbox"
                alt="Image6"
                role="button"
                data-bs-toggle="modal"
                data-bs-target="#lightboxModal"
                data-index="5">
           <div class="card-body text-center">
-            <h6>Image 6</h6>
             <p>Description for image six.</p>
           </div>
         </div>
@@ -133,8 +127,8 @@
     </div>
   </div>
 
-  <!-- ✅ Lightbox modal (note .lightbox class added) -->
-  <div class="modal fade lightbox" id="lightboxModal" tabindex="-1" aria-hidden="true">
+  <!-- ✅ Lightbox Modal (no .lightbox class here now) -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content bg-transparent border-0">
         <div id="lightboxCarousel" class="carousel slide" data-bs-ride="false">
@@ -159,14 +153,11 @@
             </div>
           </div>
 
-          <!-- Prev/Next buttons -->
           <button class="carousel-control-prev" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon"></span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon"></span>
           </button>
         </div>
       </div>
